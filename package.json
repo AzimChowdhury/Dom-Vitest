@@ -1,0 +1,12 @@
+{
+  "name": "Dom-Vitest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test":"vitest --reporter verbose"
+  },
+  "dependencies": {
+    "vitest": "^0.34.6"
+  }
+}
