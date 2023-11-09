@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test":"vitest --reporter verbose"
+    "test": "vitest --reporter verbose --environment jsdom"
   },
   "dependencies": {
+    "crypto-js": "^4.2.0",
+    "http-server": "^14.1.1",
+    "jsdom": "^22.1.0",
+    "jsonwebtoken": "^9.0.2",
     "vitest": "^0.34.6"
   }
 }
